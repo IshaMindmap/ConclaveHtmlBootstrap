@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conclave Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+    <div class="hero-section">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators" style="display: none">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner h-100">
+          <!-- Slide 1 -->
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url('/assets/herobgshadow.png'),
+                url('/assets/herobg.png');
+            "
+          >
+            <div class="container-fluid h-100">
+              <!-- Nav Menu -->
+              <div
+                class="d-flex justify-content-between px-4 px-md-5 px-lg-5 pt-4 pt-md-6 pt-lg-8"
+              >
+                <div>
+                  <img
+                    src="/assets/logowhite.png"
+                    class="logo-img"
+                    alt="Logo"
+                  />
+                </div>
+                <div class="d-none d-md-flex align-items-center">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="aboutus.html"
+                        >ABOUT US</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="solutions.html"
+                        >SOLUTIONS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="resources.html"
+                        >RESOURCES</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="careers.html"
+                        >CAREERS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="contactus.html"
+                        >CONTACT US</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-md-none d-flex align-items-center">
+                  <button class="btn text-white fs-2">☰</button>
+                </div>
+              </div>
+
+              <div
+                class="carousel-content d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="carousel-title mb-2">ONE-STOP SOLUTION FOR</div>
+                <div class="carousel-main-title mb-4">
+                  Project Management Services
+                </div>
+                <a href="#" class="btn cta-button">GET SOLUTION NOW</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('/assets/herobgshadow.png'),
+                url('/assets/banner2.jpg');
+            "
+          >
+            <div class="container-fluid h-100">
+              <div
+                class="d-flex justify-content-between px-4 px-md-5 px-lg-5 pt-4 pt-md-6 pt-lg-8"
+              >
+                <div>
+                  <img
+                    src="/assets/logowhite.png"
+                    class="logo-img"
+                    alt="Logo"
+                  />
+                </div>
+                <div class="d-none d-md-flex align-items-center">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="aboutus.html"
+                        >ABOUT US</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="solutions.html"
+                        >SOLUTIONS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="resources.html"
+                        >RESOURCES</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="careers.html"
+                        >CAREERS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="contactus.html"
+                        >CONTACT US</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-md-none d-flex align-items-center">
+                  <button class="btn text-white fs-2">☰</button>
+                </div>
+              </div>
+
+              <div
+                class="carousel-content d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="carousel-title mb-2">PROFESSIONAL EXPERTISE IN</div>
+                <div class="carousel-main-title mb-4">
+                  Strategic Planning & Execution
+                </div>
+                <a href="#" class="btn cta-button">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('/assets/herobgshadow.png'),
+                url('/assets/banner3.jpg');
+            "
+          >
+            <div class="container-fluid h-100">
+              <div
+                class="d-flex justify-content-between px-4 px-md-5 px-lg-5 pt-4 pt-md-6 pt-lg-8"
+              >
+                <div>
+                  <img
+                    src="/assets/logowhite.png"
+                    class="logo-img"
+                    alt="Logo"
+                  />
+                </div>
+                <div class="d-none d-md-flex align-items-center">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="aboutus.html"
+                        >ABOUT US</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="solutions.html"
+                        >SOLUTIONS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="resources.html"
+                        >RESOURCES</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="careers.html"
+                        >CAREERS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-lg-4 px-md-2" href="contactus.html"
+                        >CONTACT US</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-md-none d-flex align-items-center">
+                  <button class="btn text-white fs-2">☰</button>
+                </div>
+              </div>
+
+              <div
+                class="carousel-content d-flex flex-column justify-content-center align-items-center"
+              >
+                <div class="carousel-title mb-2">
+                  DELIVERING EXCELLENCE WITH
+                </div>
+                <div class="carousel-main-title mb-4">
+                  Innovative Business Solutions
+                </div>
+                <a href="#" class="btn cta-button">CONTACT US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="custom-indicators">
+          <span
+            class="custom-indicator active"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+          ></span>
+          <span
+            class="custom-indicator"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+          ></span>
+          <span
+            class="custom-indicator"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+          ></span>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+          style="display: none"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+          style="display: none"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="bg-light-gray position-relative">
+      <div class="row g-0">
+        <div class="col-12 col-md-6 d-none d-md-block position-relative">
+          <img
+            src="assets/offeringimage.png"
+            alt="Market research"
+            class="img-fluid h-85"
+            style="min-height: 928px"
+          />
+        </div>
+
+        <div class="col-12 col-md-6 p-4 p-sm-5 pt-md-5 pt-lg-5">
+          <div class="text-orange fs-6 fs-md-5 fs-lg-4 mb-1 mb-sm-2">
+            WE OFFERED
+          </div>
+          <div class="text-dark-black fs-4 fs-sm-3 fs-md-2 fs-lg-1 mb-2">
+            Platform Offerings
+          </div>
+          <div class="text-medium-gray fs-6 fs-sm-6 fs-md-6 fs-lg-5">
+            At Conclave Research, we provide a suite of innovative platforms
+            designed to streamline your market research process and enhance your
+            insights. Explore our products and transform the way you conduct
+            market research!
+          </div>
+
+          <div class="mt-3 mt-sm-4 mt-md-5 d-flex flex-column flex-sm-row p-2">
+            <div
+              id="diy-tab"
+              class="tab-btn active p-2 p-md-3 mb-2 mb-sm-0 me-0"
+              style="min-width: 205px"
+            >
+              DIY Data Collection and Project Management Platform
+            </div>
+            <div
+              id="api-tab"
+              class="tab-btn inactive p-2 p-md-3 d-flex justify-content-center align-items-center position-relative"
+              style="border-left: 0"
+            >
+              API Integration
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="position-absolute w-100 mt-5 mt-md-0"
+        style="min-height: 300px"
+      >
+        <div
+          id="cardsContainer"
+          class="card-slider position-relative px-4 px-md-5 mx-auto"
+        >
+        </div>
+
+        <div
+          id="paginationDots"
+          class="position-absolute d-flex gap-2 z-3 my-4 pagination-container"
+          style="bottom: 1rem; left: 40%; transform: translateX(-50%)"
+        >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-main">
+        <div class="container-fluid px-3 px-md-4 px-lg-5">
+          <div class="row py-4 py-md-5 py-lg-5">
+            <div class="col-12 col-md-4 col-lg-3 mb-4 mb-md-0">
+              <img
+                src="assets/logo.png"
+                class="img-fluid mb-3"
+                style="max-width: 280px; width: 100%"
+                alt="Company Logo"
+              />
+              <div class="company-description mb-3">
+                A Quality Market Research Solution That Provides Exclusive
+                Insights For BusinessTransformation
+              </div>
+              <img
+                src="assets/socialicons.png"
+                class="img-fluid"
+                style="width: 180px"
+                alt="Social Media Icons"
+              />
+            </div>
+            <div class="col-12 col-md-2 col-lg-2 mb-4 mb-md-0 me-md-3 me-lg-5">
+              <div class="section-title">Solutions</div>
+              <div class="footer-link">ESOMAR</div>
+              <div class="footer-link">Panel Book</div>
+              <div class="footer-link">GDPR</div>
+              <div class="footer-link">Blogs</div>
+              <div class="footer-link">Privacy Policy</div>
+              <div class="footer-link">Terms & Conditions</div>
+            </div>
+            <div class="col-12 col-md-2 col-lg-3 mb-4 mb-md-0 me-md-3 me-lg-4">
+              <div class="section-title">Explore</div>
+              <div class="footer-link">Project Management</div>
+              <div class="footer-link">Survey Programming & Hosting</div>
+              <div class="footer-link">Data Collection & Processing</div>
+              <div class="footer-link">Consulting</div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3">
+              <div class="section-title">Contact Us</div>
+              <div class="contact-item">
+                <img
+                  src="assets/phoneicon.png"
+                  class="contact-icon"
+                  alt="Phone Icon"
+                />
+                <div>882-625-4440</div>
+              </div>
+              <div class="contact-item">
+                <img
+                  src="assets/mailicon.png"
+                  class="contact-icon"
+                  style="height: 1rem"
+                  alt="Mail Icon"
+                />
+                <div>sales@conclaveresearch.com</div>
+              </div>
+              <div class="contact-item align-items-start">
+                <img
+                  src="assets/locationicon.png"
+                  class="location-icon"
+                  alt="Location Icon"
+                />
+                <div>
+                  US Office <br />
+                  1007 North Orange Street, 4th FL <br />
+                  3600 Wilmington, DE - 19801, <br />
+                  USA
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-bar py-3">
+        Copyright © 2024 Conclave Research. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const diyCardData = [
+          {
+            title: 'Effortless Dashboard Navigation',
+            description:
+              'User-Friendly Interface & Intuitive dashboard for easy navigation.',
+          },
+          {
+            title: 'Streamlined Project Setup',
+            description:
+              'Interactive UI for quick project setup and quota management.',
+          },
+          {
+            title: 'Tailored Question Library',
+            description:
+              'Customizable Question Library to suit your specific targeting and research needs.',
+          },
+          {
+            title: 'Instant Response Tracking',
+            description:
+              'Real-time data collection to monitor responses as they come in.',
+          },
+          {
+            title: 'Flexible Data Export',
+            description:
+              'Export data to various formats like CSV, Excel, and SPSS for easy analysis.',
+          },
+          {
+            title: 'Advanced Analytics',
+            description:
+              'Powerful data visualization and insights generation tools.',
+          },
+          {
+            title: 'Multi-Device Compatibility',
+            description:
+              'Access your research data on desktop, tablet, or mobile devices.',
+          },
+          {
+            title: 'Automated Reporting',
+            description:
+              'Generate comprehensive reports with just a few clicks.',
+          },
+        ];
+
+        const apiCardData = [
+          {
+            title: 'Seamless API Integration',
+            description:
+              'Connect your existing systems with our platform using RESTful APIs.',
+          },
+          {
+            title: 'Custom Webhooks',
+            description:
+              'Set up event-triggered notifications to automate your workflow.',
+          },
+          {
+            title: 'Secure Authentication',
+            description:
+              'OAuth 2.0 and API key authentication for secure access control.',
+          },
+          {
+            title: 'Comprehensive Documentation',
+            description:
+              'Detailed API documentation with examples and SDKs for major languages.',
+          },
+          {
+            title: 'Rate Limiting Controls',
+            description:
+              'Flexible rate limiting to manage API usage and prevent overload.',
+          },
+          {
+            title: 'Data Transformation',
+            description:
+              'Convert data formats seamlessly between your systems and our platform.',
+          },
+        ];
+
+        let currentSlide = 0;
+        let activeTab = 'diy';
+        let activeCardData = diyCardData;
+        let totalSlides =
+          activeTab === 'diy' ? diyCardData.length : apiCardData.length;
+        let slideInterval;
+
+        const cardsContainer = document.getElementById('cardsContainer');
+        const paginationDots = document.getElementById('paginationDots');
+        const diyTabBtn = document.getElementById('diy-tab');
+        const apiTabBtn = document.getElementById('api-tab');
+
+        function initializeCards() {
+          cardsContainer.innerHTML = '';
+          activeCardData.forEach((card, index) => {
+            const cardElement = document.createElement('div');
+            cardElement.className = `offering-card ${
+              currentSlide === index ? 'card-active' : 'bg-white'
+            }`;
+
+            cardElement.innerHTML = `
+                        <div class="d-flex justify-content-start align-items-center mb-3 mb-sm-4">
+                            <div class="p-2 p-sm-3 p-md-4 ${
+                              currentSlide === index ? 'bg-white' : 'bg-light'
+                            } rounded-circle">
+                                <img src="assets/offeringcard1.png" alt="${
+                                  card.title
+                                } icon" class="w-5 h-5 w-sm-6 h-sm-6 w-md-8 h-md-8" style="width: 1.25rem; height: 1.25rem;">
+                            </div>
+                        </div>
+                        <h3 class="fw-semibold fs-6 fs-sm-5 fs-md-4 fs-lg-4 mb-1 mb-sm-2 text-dark-black">${
+                          card.title
+                        }</h3>
+                        <p class="fs-6 fw-normal ${
+                          currentSlide === index
+                            ? 'text-dark-black'
+                            : 'text-medium-gray'
+                        }">${card.description}</p>
+                    `;
+
+            cardsContainer.appendChild(cardElement);
+          });
+
+          updatePaginationDots();
+        }
+
+        function updatePaginationDots() {
+          paginationDots.innerHTML = '';
+          for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.className = `pagination-dot ${
+              currentSlide === i ? 'active' : 'inactive'
+            }`;
+            dot.onclick = () => goToSlide(i);
+            paginationDots.appendChild(dot);
+          }
+        }
+
+        function goToSlide(index) {
+          currentSlide = index;
+
+          const cardWidth = cardsContainer.children[0].offsetWidth;
+          const cardGap = window.innerWidth < 640 ? 16 : 24;
+          const newScrollPosition = Math.max(0, (cardWidth + cardGap) * index);
+
+          cardsContainer.scrollTo({
+            left: newScrollPosition,
+            behavior: 'smooth',
+          });
+
+          Array.from(cardsContainer.children).forEach((card, idx) => {
+            if (idx === index) {
+              card.classList.add('card-active');
+              card.classList.remove('bg-white');
+              card.querySelector('p').classList.remove('text-medium-gray');
+              card.querySelector('p').classList.add('text-dark-black');
+              card.querySelector('.rounded-circle').classList.add('bg-white');
+              card
+                .querySelector('.rounded-circle')
+                .classList.remove('bg-light');
+            } else {
+              card.classList.remove('card-active');
+              card.classList.add('bg-white');
+              card.querySelector('p').classList.add('text-medium-gray');
+              card.querySelector('p').classList.remove('text-dark-black');
+              card
+                .querySelector('.rounded-circle')
+                .classList.remove('bg-white');
+              card.querySelector('.rounded-circle').classList.add('bg-light');
+            }
+          });
+
+          updatePaginationDots();
+        }
+
+        function handleTabChange(tab) {
+          activeTab = tab;
+
+          if (tab === 'diy') {
+            diyTabBtn.classList.add('active');
+            diyTabBtn.classList.remove('inactive');
+            apiTabBtn.classList.remove('active');
+            apiTabBtn.classList.add('inactive');
+            activeCardData = diyCardData;
+          } else {
+            apiTabBtn.classList.add('active');
+            apiTabBtn.classList.remove('inactive');
+            diyTabBtn.classList.remove('active');
+            diyTabBtn.classList.add('inactive');
+            activeCardData = apiCardData;
+          }
+
+          totalSlides = activeCardData.length;
+          currentSlide = 0;
+
+          initializeCards();
+
+          cardsContainer.scrollTo({
+            left: 0,
+            behavior: 'smooth',
+          });
+
+          clearInterval(slideInterval);
+          startAutoSlide();
+        }
+
+        function startAutoSlide() {
+          slideInterval = setInterval(() => {
+            const nextSlide = (currentSlide + 1) % totalSlides;
+            goToSlide(nextSlide);
+          }, 3000);
+        }
+
+        diyTabBtn.addEventListener('click', () => handleTabChange('diy'));
+        apiTabBtn.addEventListener('click', () => handleTabChange('api'));
+
+        cardsContainer.addEventListener('scroll', () => {
+          if (cardsContainer.children.length === 0) return;
+
+          const cardWidth = cardsContainer.children[0].offsetWidth;
+          const cardGap = window.innerWidth < 640 ? 16 : 24;
+          const scrollPosition = cardsContainer.scrollLeft;
+
+          const newSlide = Math.round(scrollPosition / (cardWidth + cardGap));
+
+          if (
+            newSlide !== currentSlide &&
+            newSlide >= 0 &&
+            newSlide < totalSlides
+          ) {
+            currentSlide = newSlide;
+
+            Array.from(cardsContainer.children).forEach((card, idx) => {
+              if (idx === currentSlide) {
+                card.classList.add('card-active');
+                card.classList.remove('bg-white');
+                card.querySelector('p').classList.remove('text-medium-gray');
+                card.querySelector('p').classList.add('text-dark-black');
+                card.querySelector('.rounded-circle').classList.add('bg-white');
+                card
+                  .querySelector('.rounded-circle')
+                  .classList.remove('bg-light');
+              } else {
+                card.classList.remove('card-active');
+                card.classList.add('bg-white');
+                card.querySelector('p').classList.add('text-medium-gray');
+                card.querySelector('p').classList.remove('text-dark-black');
+                card
+                  .querySelector('.rounded-circle')
+                  .classList.remove('bg-white');
+                card.querySelector('.rounded-circle').classList.add('bg-light');
+              }
+            });
+
+            updatePaginationDots();
+          }
+        });
+
+        window.addEventListener('resize', () => {
+          if (cardsContainer.children.length === 0) return;
+
+          const cardWidth = cardsContainer.children[0].offsetWidth;
+          const cardGap = window.innerWidth < 640 ? 16 : 24;
+          const newScrollPosition = (cardWidth + cardGap) * currentSlide;
+
+          cardsContainer.scrollTo({
+            left: newScrollPosition,
+            behavior: 'auto',
+          });
+        });
+
+        initializeCards();
+        startAutoSlide();
+      });
+
+      document.addEventListener('DOMContentLoaded', function () {
+        const carouselElement = document.getElementById('heroCarousel');
+        const carousel = new bootstrap.Carousel(carouselElement, {
+          interval: 5000, 
+          ride: 'carousel', 
+          wrap: true, 
+          pause: false, 
+        });
+
+        carousel.cycle();
+        const indicators = document.querySelectorAll('.custom-indicator');
+
+        carouselElement.addEventListener('slide.bs.carousel', function (event) {
+          indicators.forEach((indicator, index) => {
+            if (index === event.to) {
+              indicator.classList.add('active');
+            } else {
+              indicator.classList.remove('active');
+            }
+          });
+        });
+
+        indicators.forEach((indicator, index) => {
+          indicator.addEventListener('click', function () {
+            carousel.to(index);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
