@@ -15,7 +15,6 @@
   font-display: swap;
 }
 
-/* Option 2: If you don't have the font files, use a fallback stack with similar fonts */
 body {
   font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
 }
